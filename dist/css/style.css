@@ -285,7 +285,6 @@ button {
 */
 
 
-
 /*Main page*/
 @media screen and (min-width: 800px)
 {
@@ -327,13 +326,95 @@ button {
 }
 }
 
-@media screen and (min-width: 401px) and (max-width: 767px){
+@media screen and (min-width: 401px) and (max-width: 420px){
 
 svg{
   overflow: hidden;
   width: 65em;
   position: relative;
   left:-90vw;
+}
+.socialIcons{
+    font-size:1.7em;
+
+}
+.heroText {
+    font-family: 'Comfortaa'
+    font-size: 1.2em;
+    color: #EDEDED;
+    padding-right: 2vw;
+    top: -10vh;
+  }
+.hero {
+    color: #EDEDED;
+    /* text-align: center; */
+    font-size: 1.4em;
+  }
+.container {
+  text-align: center;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+iframe{
+  width: 80vw;
+  height:50vh;
+}
+.mapouter {
+    position: relative;
+    top:23vh;
+    left:8vw;
+    text-align: left;
+    width: 100%;
+  }
+.gmap_canvas {
+      background:none!important;
+      height:50vh;
+      width:80vw;
+  }
+.sitemap{
+  display: none;
+}
+.heading1{
+  left:1%;
+  font-size: 1.97em;
+}
+.hide{
+  display: none;
+}
+.about{
+  bottom: 14vh;
+  font-size: 0.90em;
+  line-height: 1.7; 
+}
+.intro{
+  font-size: 0.85em;
+  line-height: 1.7;
+}
+.theme{
+  width: 60%;
+  top:150px;
+  font-size: 0.85em;
+  line-height: 1.7;
+}
+.titleabout{
+  top:10vh;
+  font-size: 2em;
+}
+.titleintro{
+  top:70vh;
+  font-size: 2.0em;
+}
+}
+
+@media screen and (min-width: 421px) and (max-width: 767px){
+
+svg{
+  overflow: hidden;
+  width: 65em;
+  position: relative;
+  left:-85vw;
 }
 .socialIcons{
     font-size:1.7em;
